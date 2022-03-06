@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 2px;
+  cursor: pointer;
+  margin-left:20px;
+  background-color:red;
+}
+.button1 {
+  border:1px solid red;
+  color: red;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 2px;
+  cursor: pointer;
+  margin-left:20px;
+  background-color:transparent;
+}
+
+.logo{border:0px solid red;width:8%;height:80px;float:left;}
+.login{border:0px solid red;width:30%;height:50px;float:right;margin-top:15px;}
+@media screen and (max-width: 1100px) {
+
+.logo{
+width:12%;
+}
+.login{display:none}
+}
+
+
+</style>
+</head>
+<body>
+<div style="border:0px solid red;width:100%;height:80px;">
+<div style="border:0px solid red;width:10%;height:80px;float:left"></div>
+<div class="logo">
+<img src="logo.jpg" style="float:left" width="130px" height="80px">
+	
+
+</div>
+<div style="border:0px solid red;width:50%;height:80px;float:left">
+	<form >
+  <input class="form-control mr-sm-2" style="width:60%;height:35px;margin-top:20px"  placeholder="cant find try screaching here..." >
+	<a href="https://www.swiggy.com/search?q=coffee"><button class="button ">search</button></a></form>	</div>
+	<div class="login">
+		<img style="float:right;padding-top:8px;padding:10px 15px" src="cart.png">
+		<a href="https://www.swiggy.com/search?q=coffee" style="float:right;"><button class="button1 ">search</button></a></form>	
+		<a href="https://www.swiggy.com/search?q=coffee" style="float:right;"><button class="button ">search</button></a></form>	
+        
+	</div>
+
+</div>
+<hr>
+
+
+</body>
+</html>
+
+
